@@ -1,0 +1,14 @@
+# Crank-rocker demo: a classic drag-free mechanism driven by the crank.
+name   wiper-linkage
+units  mm
+
+ground   4.0    # fixed distance between O2 and O4
+crank    1.0    # O2 to A, the input link
+coupler  3.0    # A to B
+rocker   2.5    # O4 to B, the output link
+
+min_transmission 40
+
+# Points on the coupler: distance from A along AB, angle from AB (degrees).
+point  T  3.0   0     # the coupler tip, sits on B
+point  P  1.5   30    # a point off the coupler line

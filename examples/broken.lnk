@@ -1,0 +1,10 @@
+# Deliberately broken input used by the test suite.
+name   broken-demo
+ground   4.0
+crank    -1
+coupler  3.0
+rockr    2.5
+min_transmission 95
+point  A  1.0  0
+point  P  1.0  abc
+ground   5.0
